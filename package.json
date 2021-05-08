@@ -1,0 +1,25 @@
+{
+  "name": "url2app",
+  "version": "1.0.0",
+  "description": "To wrap a url to an APP",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-mac": "./node_modules/.bin/electron-builder -m",
+    "build-win": "node build_win.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayneChang65/url2app.git"
+  },
+  "keywords": [
+    "electron",
+    "wrapper"
+  ],
+  "author": "Wayne Chang",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.6",
+    "electron-builder": "^22.11.1"
+  }
+}
