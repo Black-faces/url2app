@@ -11,7 +11,7 @@ builder.build({
                 "output": "dist/mac"
             },
             "mac": {
-                "icon": path.resolve(__dirname, 'img/url2app.png'),
+                "icon": path.resolve(__dirname, 'img/fake_device.png'),
             }
         },
     })
