@@ -14,7 +14,8 @@
   },
   "keywords": [
     "electron",
-    "wrapper"
+    "wrapper",
+    "app"
   ],
   "author": "Wayne Chang",
   "license": "MIT",
