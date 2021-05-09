@@ -1,12 +1,5 @@
-// ---------------------------//
-// APP Wrapper by Electron.js //
-// ---------------------------//
-
 const { app, BrowserWindow, Menu } = require('electron');
-
-const menuTemplate = [{
-    label: require('./package.json').name
-}];
+const menuTemplate = [{ label: require('./package.json').name }];
 const menu = Menu.buildFromTemplate(menuTemplate);
 Menu.setApplicationMenu(menu);
 
@@ -15,8 +8,12 @@ function createWindow() {
         width: 800,
         height: 600
     })
-    mainWindow.loadURL(process.env.URL2APP_URL);
-    // export URL2APP_URL="http://localhost:8008/milling/index.html"
+    if (process.env.URL2APP_URL) {
+        // e.g. export URL2APP_URL="http://localhost:8008/milling/index.html"
+        mainWindow.loadURL(process.env.URL2APP_URL);
+    } else {
+        mainWindow.loadURL(require('./package.json').app2url_url);
+    }
 }
 
 app.whenReady().then(() => {

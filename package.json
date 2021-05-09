@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "To wrap a url to an APP",
   "main": "main.js",
+  "app2url_url": "http://localhost:8008/milling/index.html",
   "scripts": {
     "start": "electron .",
     "build-mac": "node build_mac.js",

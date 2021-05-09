@@ -6,7 +6,7 @@ builder.build({
         mac: ['dmg', 'zip'],
         config: {
             "appId": "com.github.waynechang65.url2app",
-            "productName": "url2app", // 應用程式名稱 ( 顯示在應用程式與功能 )
+            "productName": "Fake Device", // 應用程式名稱 ( 顯示在應用程式與功能 )
             "directories": {
                 "output": "dist/mac"
             },
