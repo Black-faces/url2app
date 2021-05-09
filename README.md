@@ -28,3 +28,14 @@
   5. 執行結果
   以下是用一個local網站進行測試的結果。
   ![image](https://raw.githubusercontent.com/WayneChang65/url2app/master/img/readme01.png)  
+
+### Build成各作業系統平台的安裝檔  
+因為本專案是使用Electron框架所寫成，所以建立各平台安裝檔可以使用兩個較常見的工具([electron-builder](https://github.com/electron-userland/electron-builder/blob/master/README.md)以及[electron-packager](https://github.com/electron/electron-packager))進行製作，有需要可上各自Github找文件閱讀。(本專案是使用electron-builder)
+  1. 使用以下指令Build Mac版本安裝檔
+  ```
+  npm run build-mac
+  ```
+  2. 使用以下指令Build Win版本安裝檔
+  ```
+  npm run build-win
+  ```
