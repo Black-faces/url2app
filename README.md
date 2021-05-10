@@ -19,7 +19,7 @@ Because the project uses electron framework, any famous OS can also run it.
   
   Download source code from github  
   ```
-  git clone https://github.com/WayneChang65/url2app.git  
+  git clone https://github.com/Black-faces/url2app.git  
   ```  
   2. 進入url2app目錄  
   
